@@ -71,6 +71,7 @@
 		B5F84B611E70595B0089A76C /* NSAttributedString+Analyzers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F84B601E70595B0089A76C /* NSAttributedString+Analyzers.swift */; };
 		E109B51C1DC33F2C0099605E /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109B51B1DC33F2C0099605E /* LayoutManager.swift */; };
 		E11B77601DBA14B40024E455 /* BlockquoteFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B775F1DBA14B40024E455 /* BlockquoteFormatterTests.swift */; };
+		E6856EA62BF1CF7000B70064 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E6856EA52BF1CF7000B70064 /* PrivacyInfo.xcprivacy */; };
 		F1000CE71EAA44AA0000B15B /* String+EndOfLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000CE61EAA44AA0000B15B /* String+EndOfLine.swift */; };
 		F1065DB620ADD928008C72CC /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1065DB520ADD928008C72CC /* Plugin.swift */; };
 		F1079D67208F80FE009717FA /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1079D66208F80FE009717FA /* EditorView.swift */; };
@@ -349,6 +350,7 @@
 		B5F84B601E70595B0089A76C /* NSAttributedString+Analyzers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Analyzers.swift"; sourceTree = "<group>"; };
 		E109B51B1DC33F2C0099605E /* LayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
 		E11B775F1DBA14B40024E455 /* BlockquoteFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockquoteFormatterTests.swift; sourceTree = "<group>"; };
+		E6856EA52BF1CF7000B70064 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F1000CE61EAA44AA0000B15B /* String+EndOfLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EndOfLine.swift"; sourceTree = "<group>"; };
 		F1065DB520ADD928008C72CC /* Plugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
 		F1079D66208F80FE009717FA /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
@@ -1357,6 +1359,7 @@
 			children = (
 				FF0714001EFD78AF00E50713 /* Media.xcassets */,
 				FF1F56A2239562B900E93A30 /* html_colors.json */,
+				E6856EA52BF1CF7000B70064 /* PrivacyInfo.xcprivacy */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -1494,6 +1497,7 @@
 			files = (
 				FF5DCBF2248ED900006D9FC7 /* ReleaseProcess.md in Resources */,
 				FF1F56A3239562B900E93A30 /* html_colors.json in Resources */,
+				E6856EA62BF1CF7000B70064 /* PrivacyInfo.xcprivacy in Resources */,
 				FF0714021EFD78AF00E50713 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
